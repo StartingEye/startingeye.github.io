@@ -3,7 +3,7 @@ layout: post
 title: "[TIL] AWS 컴퓨팅 서비스와 EC2 인스턴스 구축"
 date: 2026-03-17 22:00:00 +0900
 categories: [TIL, Cloud]
-tags: [security, AWS, EC2, Linux]
+tags: [security, AWS, EC2, Linux, Cloud]
 ---
 
 ## 📅 오늘 학습한 내용
