@@ -1,7 +1,7 @@
 ---
-title: "[Linux] 리눅스(Linux) 시스템 구조 이해와 관리자 필수 명령어 정리"
+title: "[TIL] 리눅스(Linux) 시스템 구조 이해와 관리자 필수 명령어 정리"
 date: 2026-03-18 23:00:00 +0900
-categories: [Linux]
+categories: [TIL, Linux]
 tags: [Linux, CLI, Security, Root, Permission]
 ---
 
