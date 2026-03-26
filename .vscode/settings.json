@@ -9,6 +9,13 @@
   "[markdown]": {
     "editor.defaultFormatter": "yzhang.markdown-all-in-one"
   },
+  "markdown.copyFiles.destination": {
+    "**/*.md": "/assets/img/posts/${documentBaseName}/${fileName}"
+  },
+  // Paste Image extension override (Hardcoded to prevent _posts/assets bug)
+  "pasteImage.path": "c:/GithubProject/startingeye.github.io/assets/img/posts/${currentFileNameWithoutExt}",
+  "pasteImage.basePath": "c:/GithubProject/startingeye.github.io",
+  "pasteImage.insertPattern": "![](/assets/img/posts/${currentFileNameWithoutExt}/${imageFileName})\\n*캡션*",
   // Formatter
   "[html][liquid]": {
     "editor.defaultFormatter": "Shopify.theme-check-vscode"

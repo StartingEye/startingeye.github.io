@@ -1,0 +1,8 @@
+{
+  "pasteImage.path": "c:/GithubProject/startingeye.github.io/assets/img/posts/${currentFileNameWithoutExt}",
+  "pasteImage.basePath": "c:/GithubProject/startingeye.github.io",
+  "pasteImage.insertPattern": "![](/assets/img/posts/${currentFileNameWithoutExt}/${imageFileName})\\n*캡션*",
+  "markdown.copyFiles.destination": {
+    "**/*.md": "c:/GithubProject/startingeye.github.io/assets/img/posts/${documentBaseName}/${fileName}"
+  }
+}
