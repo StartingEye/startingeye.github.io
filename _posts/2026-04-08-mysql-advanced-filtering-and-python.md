@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[MySQL] 4주차: 자주 쓰는 자료형과 기법, Python 연동 검색"
+title: "[MySQL]자주 쓰는 자료형과 기법, Python 연동 검색"
 date: 2026-04-08
 categories: [MySQL, Python, 실습]
 tags: [mysql, python, datatype, like, between, input, 데이터베이스, beginner]
