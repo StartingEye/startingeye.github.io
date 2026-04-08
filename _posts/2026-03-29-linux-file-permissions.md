@@ -22,10 +22,6 @@ ls -l
 | `w` (2) | Write | 파일 내용 수정 | 디렉터리 내 파일 생성 및 삭제 |
 | `x` (1) | eXecute | 프로그램/스크립트로써 실행 | 권한 체크 및 디렉터리 진입 (`cd`) |
 
-> **💻 [추천 사진 자료 위치]**
-> `ls -l` 명령어로 파일 목록을 조회했을 때 왼쪽 권한 표시(예: `-rw-rw-r--`)가 잘 나타나 있는 터미널 캡처 화면
-> ![](/assets/img/posts/2026-03-29-linux-file-permissions/ls-l-output.png)
-
 ---
 
 # 2. 기본 권한 및 소유권 변경 (`chmod`, `chown`)
@@ -46,9 +42,6 @@ chmod u+x run.sh       # 소유자(user)에게 실행(x) 추가(+)
 chmod g-w file.txt     # 소유그룹(group)에서 쓰기(w) 제거(-)
 ```
 
-> **💻 [추천 사진 자료 위치]**
-> 권한을 `chmod 600`으로 좁힌 후, 타 사용자로 접근 시도 시 `Permission denied` 에러가 발생하는 보안 방어 캡처 화면 
-> ![](/assets/img/posts/2026-03-29-linux-file-permissions/permission-denied.png)
 
 ## 2.2 소유권 변경: `chown`
 파일의 소유자나 소유 그룹 자체를 아예 변경할 때는 `chown` 명령어를 사용합니다. (root 권한 필요)
@@ -69,9 +62,6 @@ sudo chmod +t /tmp/farm
 # 기타(other) 권한 제일 끝 x 자리가 t나 T로 바뀜 (예: drwxrwxrwt)
 ```
 
-> **💻 [추천 사진 자료 위치]**
-> Sticky bit가 적용된 공용 디렉터리에서 타인의 파일을 삭제 시도했다가 `Operation not permitted` 로그가 띄워지며 거부당하는 터미널 캡처 화면
-> ![](/assets/img/posts/2026-03-29-linux-file-permissions/sticky-bit-block.png)
 
 ## 3.2 SUID (`s`) - 소유자 권한 대여
 실행 파일에 설정하면, 일반 사용자가 해당 파일을 실행할 때 일시적으로 **파일 원본 소유자의 권한(보통 root)으로 동작**하게 해줍니다.
